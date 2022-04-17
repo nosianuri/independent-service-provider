@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+        "name": "Pinocchio",
+        "price": 420,
+        "description": "This is about life of reporters how they are treated in real life, how they struggle to get a small information from people. All the ups and downs , with lots of politics involved , will they manage to become good reporters ??? ",
+        "img": "https://i.ibb.co/QkW0d2f/drama6.png"
+    },
+    {
+        "id": 2,
+        "name": " I hear your voice",
+        "price": 500,
+        "description": "A guy who can hear people thoughts is somehow related in a crime and meets the person who saved him when he was a kid. How their life intersects and how he helps her get through her life!!!!",
+        "img": "https://i.ibb.co/Wt7JFrf/drama2.png"
+      },
+      {
+        "id": 3,
+        "name": "Doctor stranger ",
+        "price": 510,
+        "description": "As a child Park Hoon and his father was tricked and sent to North Korea , after staying there Park Hoon learnt his medical knowledge from his father. He meets a girl in North Korea and tries to escape , they fail to escape together and only he comes back to South Korea . When he started working in a hospital he meets the girl whom he fell in love with, how will there relationship grow!!! ",
+        "img": "https://i.ibb.co/DgTNB60/drama3.png"
+      },
+      {
+        "id": 4,
+        "name": " W- Two worlds",
+        "price": 400,
+        "description": "It takes place in two worlds , one in the real life where the girl is and the Webtoon where the guy is . She travels and ends up in a webtoon, which seems so real, will she realise that she is in a webtoon, how will she react and manage to survive ",
+        "img": "https://i.ibb.co/xJbt4r6/drama4.png"
+      },
+      {
+        "id": 5,
+        "name": "High Kick! The Revenge of the Short Legged",
+        "price": 350,
+        "description": "It's about Ahn family's financial hardship ,The series follows several subplots through to their conclusion. ",
+        "img": "https://i.ibb.co/94xZ7RK/drama5.png"
+      },
+      {
+        "id": 6,
+        "name": "No breathing",
+        "price": 380,
+        "description": "This is based on swimming, as always the rivalry and love and friendship. But with the plot and there acting it's really a sweet and compitative drama.",
+        "img": "https://i.ibb.co/pLY1k5h/drama7.png"
+      },
+      {
+        "id": 7,
+      "name": " Young bloods",
+      "price": 300,
+      "description": "This is a movie which is set in a rural area, and it depicts the story of 4 people , there rivalry, love and friendship. How all this intersect in each other's life. ",
+      "img": "https://i.ibb.co/Q9sCLW4/images-6.png"
+      },
+      {
+        "id": 8,
+        "name": "While you where sleeping",
+        "price": 520,
+        "description": "Lee Jong suck is a prosecutor who is helping people from the danger they are going to face with the help Bae Suzy who can see the future of people who are in danger. ",
+        "img": "https://i.ibb.co/kqDrL6D/drama8.png"
+      },
+      
+      {
+        "id": 9,
+        "name": "School 2013",
+        "price": 360,
+        "description": "It's about twin sisters who get sperated when they where kids, how they meet again and will there meet be smooth sailing or rocky. ",
+        "img": "https://i.ibb.co/jHS7dGm/drama9.png"
+      }
+  ]

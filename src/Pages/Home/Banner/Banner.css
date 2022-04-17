@@ -1,0 +1,14 @@
+img {
+    max-width: 100%;
+}
+
+.banner-pic {
+    width: 500px;
+}
+
+.main-container {
+   padding: 1rem;
+    background-image: url(../../../images/leejongsuk.png);
+    background-size: cover;
+    height: 700px;
+}

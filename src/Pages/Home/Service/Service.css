@@ -1,0 +1,13 @@
+.drama {
+    background-color: #ccc;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.set-btn {
+    background-color: #2d3436;
+    color: #ccc;
+}
+
