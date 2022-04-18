@@ -20,8 +20,8 @@ const actors = [
 
 const Actors = () => {
     return (
-        <div className='container mt-5'>
-            <h2 className='search text-center'>People Also search for</h2>
+        <div id='actors' className='container mt-5  text-center'>
+            <h2 className='search'>People Also search for</h2>
             <div className="row">
                 {
                     actors.map(actor => <Actor
@@ -30,7 +30,7 @@ const Actors = () => {
                     ></Actor>)
                 }
             </div>
-            <a as={Link} to="/home" class="btn see-more ">See More</a>
+            <a as={Link} to="/gallery" class="btn see-more ">See More</a>
         </div>
     );
 };
