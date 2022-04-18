@@ -6,7 +6,7 @@ const Actor = ({ actor }) => {
     return (
         <div className=' g-5 col-sm-12 col-md-6 col-lg-4'>
             <div style={{ width: "10rem" }}>
-                <img src={img} className="card-img-top" alt="..." />
+                <img src={img} className="card-img-top actor" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     </div>

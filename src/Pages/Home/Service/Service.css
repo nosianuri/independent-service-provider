@@ -9,5 +9,6 @@
 .set-btn {
     background-color: #2d3436;
     color: #ccc;
+    border-radius: 10px;
 }
 

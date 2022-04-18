@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import actor1 from '../../../images/actors/actor-1.png';
 import actor2 from '../../../images/actors/actor-2.png';
 import actor3 from '../../../images/actors/actor-3.png';
@@ -20,7 +21,7 @@ const actors = [
 const Actors = () => {
     return (
         <div className='container mt-5'>
-            <h2 className='text-primary text-center'>People Also search for</h2>
+            <h2 className='search text-center'>People Also search for</h2>
             <div className="row">
                 {
                     actors.map(actor => <Actor
@@ -29,7 +30,7 @@ const Actors = () => {
                     ></Actor>)
                 }
             </div>
-            <a href="#home" class="btn see-more ">See More</a>
+            <a as={Link} to="/home" class="btn see-more ">See More</a>
         </div>
     );
 };
