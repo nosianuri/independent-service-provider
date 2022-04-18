@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div>
             <div className='main-container'>
-                <div className='text-center'>
+                <div className='text-center name'>
                 <h3>Lee Jong Suk </h3>
                 <p>Actor; Model</p>
                 </div>

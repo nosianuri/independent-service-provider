@@ -6,10 +6,13 @@ const Header = () => {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Lee Jong-suk</Navbar.Brand>
+                    <Navbar.Brand href="#home">Actor.com</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
+                        <Nav.Link href="#gallery">Gallery</Nav.Link>
+                        <Nav.Link href="#resume">Resume</Nav.Link>
+                        <Nav.Link href="#blog">Blog</Nav.Link>
+                        <Nav.Link href="#about">About me</Nav.Link>
                         <Nav.Link href="#pricing">Login</Nav.Link>
                     </Nav>
                 </Container>
