@@ -1,0 +1,10 @@
+.galleries {
+    
+    padding-bottom: 3px;
+    text-align: center;
+}
+.galleries img {
+    border-radius: 10px;
+    height: 50%;
+    width: 30%;
+}

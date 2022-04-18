@@ -1,22 +1,36 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <>
-            <Navbar bg="dark" variant="dark">
-                <Container>
-                    <Navbar.Brand href="#home">Actor.com</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#gallery">Gallery</Nav.Link>
-                        <Nav.Link href="#resume">Resume</Nav.Link>
-                        <Nav.Link href="#blog">Blog</Nav.Link>
-                        <Nav.Link href="#about">About me</Nav.Link>
-                        <Nav.Link href="#pricing">Login</Nav.Link>
-                    </Nav>
-                </Container>
-            </Navbar>
+            <Navbar collapseOnSelect expand="lg" sticky='top' bg="dark" variant="dark">
+  <Container>
+  <Navbar.Brand as={Link} to="/">Actors.Info</Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="me-auto">
+      <Nav.Link as={Link} to="/">Home</Nav.Link>
+      <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
+      <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
+      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item as={Link} to="/blog"></NavDropdown.Item>
+      </NavDropdown>
+    </Nav>
+    <Nav>
+      <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
+      <Nav.Link as={Link} to="/about">About Me</Nav.Link>
+      <Nav.Link as={Link} to="/login">Login</Nav.Link>
+      
+    </Nav>
+  </Navbar.Collapse>
+  </Container>
+</Navbar>
         </>
     );
 };
