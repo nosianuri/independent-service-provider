@@ -3,7 +3,7 @@ import React from 'react';
 const Resume = () => {
     return (
         <div>
-            <h2>this is about resume</h2>
+            <h2>Please show actor resume</h2>
         </div>
     );
 };
